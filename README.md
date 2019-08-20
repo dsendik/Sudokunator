@@ -8,48 +8,34 @@ Ever get stuck on a tough sudoku and want to see the solution? This small applic
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Things you need to install to use the app
 
 ```
-Give examples
+Homebrew
+Python 3+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Installing on Mac:
+Install Homebrew
+Check python version
+Install python version if below 3.0
+Check python version
 
-Say what the step will be
-
+Install Homebrew: open terminal on your mac, paste in the following and press enter
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Install Python 3
 ```
-Give an example
+$ brew install python
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+Check if your python version is 3 or higher. This should come back with something like: 'Python 3.7.1'
 ```
-Give an example
+$ python --version
 ```
 
 ## Deployment
@@ -58,30 +44,20 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python3](https://docs.python.org/3/) - The programming language used
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Dan Sendik** - *Initial work*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project does not require any licenses
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
