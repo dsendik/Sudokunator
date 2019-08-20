@@ -12,7 +12,7 @@ Things you need to install to use the app
 
 ```
 Homebrew
-Python 3+
+Python 3.x.x
 ```
 
 ### Installing
