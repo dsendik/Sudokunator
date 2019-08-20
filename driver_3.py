@@ -2,6 +2,7 @@
 #coding:utf-8
 import random
 import time as time
+import os
 
 """
 Each sudoku board is represented as a dictionary with string keys and
@@ -413,6 +414,7 @@ def convertToDict(boardList):
     return board
 
 
+
 if __name__ == '__main__':
     #  Read boards from source.
     src_filename = 'sudokus_start.txt'
@@ -453,4 +455,3 @@ if __name__ == '__main__':
         outfile.write('\n')
         end = time.time()
         # print("solved " + str(i) + " in " + str(end - start))
-    print("Finishing all boards in file.")
